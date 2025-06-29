@@ -1,0 +1,18 @@
+export interface Schema {
+  Specimen: {
+    id: string;
+    name: string;
+    formula: string;
+    locality: string;
+    acquiredAt: string;
+    tags: string[];
+    images: string[];
+  };
+  Locality: {
+    id: string;
+    name: string;
+    country: string;
+    lat: number;
+    lon: number;
+  };
+}
