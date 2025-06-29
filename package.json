@@ -1,0 +1,18 @@
+{
+  "name": "mineralmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules $(npm root)/jest/bin/jest.js",
+    "import:csv": "ts-node scripts/import-csv.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "ts-node": "^10.0.0"
+  }
+}
